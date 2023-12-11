@@ -16,7 +16,7 @@ const ProductShowcase: React.FC<ProductShowcaseProps> = ({ title, subtitle, imgS
                 <div className='text-lg font-semibold text-grey-800'>{subtitle}</div>
             </div>
 
-            <Image src={imgSrc} alt='product' objectFit='cover' className='w-1/2' height={512} width={512}></Image>
+            <Image src={imgSrc} alt='product' style={{ objectFit: "cover" }} className='w-1/2' height={512} width={512}></Image>
         </div>
     );
 }
